@@ -9,6 +9,10 @@ This simple circuit is made to display the power consumption, total energy used 
 * Acs712 current sensor board
 * Voltage regulator (7805 for an example or you can also use a premade buck converter)
 
+## Required libraries
+* [Adafruit GFX ](https://github.com/adafruit/Adafruit-GFX-Library)
+* [Adafruit SSD1306](https://github.com/adafruit/Adafruit_SSD1306)
+
 ## Final product
 
 ![bbbbbb](https://user-images.githubusercontent.com/78542929/181099927-60098ee5-0d40-4fd4-aa31-2a6e5a64f31b.jpg)
@@ -21,4 +25,5 @@ I used a cheap plastic box to contain all of the circuitry and I am using the po
 * Since we are using a hall effect current sensor like acs712 and the atmega328p's built in ADC, The readings are not suitable for an accuracy crucial application. These should only be used for a reference. 
 * Also the voltage readings are not dead accurate as we are using arduino ADC. Use it only as a reference value
 
-# If anyone of the viewers made this powermeter, please let me know <3
+**If anyone of the viewers made this powermeter, please let me know <3**
+
